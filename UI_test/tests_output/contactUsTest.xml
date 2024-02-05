@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="contactUsTest"
+    errors="1" failures="0" hostname="" id="" package="contactUsTest" skipped="1"
+    tests="0" time="0.002000" timestamp="">
+  
+
+  
+    <system-err>
+       An error occurred while creating a new ChromeDriver session: [SessionNotCreatedError] session not created: This version of ChromeDriver only supports Chrome version 121
+Current browser version is 120.0.6099.71 with binary path /opt/google/chrome/chrome
+  Verify if ChromeDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: &#39;/home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chromedriver&#39;,
+     port: 9515,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
+
+ 
+  More info might be available in the log file: /home/aya/Documents/myStore_testing/UI_test/logs/contactUsTest_chromedriver.log
+    </system-err>
+  
+
+    
+    <error message="An error occurred while creating a new ChromeDriver session: [SessionNotCreatedError] session not created: This version of ChromeDriver only supports Chrome version 121
+Current browser version is 120.0.6099.71 with binary path /opt/google/chrome/chrome"><![CDATA[
+      SessionNotCreatedError: An error occurred while creating a new ChromeDriver session: [SessionNotCreatedError] session not created: This version of ChromeDriver only supports Chrome version 121
+Current browser version is 120.0.6099.71 with binary path /opt/google/chrome/chrome
+    at Object.throwDecodedError (/home/aya/Documents/myStore_testing/UI_test/node_modules/selenium-webdriver/lib/error.js:524:15)
+    at parseHttpResponse (/home/aya/Documents/myStore_testing/UI_test/node_modules/selenium-webdriver/lib/http.js:601:13)
+    at Executor.execute (/home/aya/Documents/myStore_testing/UI_test/node_modules/selenium-webdriver/lib/http.js:529:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Contact Us Form Test" classname="contactUsTest">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

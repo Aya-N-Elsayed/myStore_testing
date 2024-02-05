@@ -1,0 +1,344 @@
+Starting ChromeDriver 121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539}) on port 9515
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1707053705.506][INFO]: [d3166d6f8c83aeaa56329322b080958c] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+         }
+      },
+      "firstMatch": [ {
+      } ]
+   }
+}
+[1707053705.506][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chrome
+[1707053705.506][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chrome
+[1707053705.506][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/google-chrome
+[1707053705.506][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chromium
+[1707053705.506][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chromium-browser
+[1707053705.506][INFO]: Browser search. Trying... /usr/local/sbin/chrome
+[1707053705.506][INFO]: Browser search. Trying... /usr/local/bin/chrome
+[1707053705.506][INFO]: Browser search. Trying... /usr/sbin/chrome
+[1707053705.506][INFO]: Browser search. Trying... /usr/bin/chrome
+[1707053705.506][INFO]: Browser search. Trying... /sbin/chrome
+[1707053705.506][INFO]: Browser search. Trying... /bin/chrome
+[1707053705.506][INFO]: Browser search. Trying... /opt/google/chrome/chrome
+[1707053705.506][INFO]: Browser search. Found at  /opt/google/chrome/chrome
+[1707053705.506][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1707053705.506][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1707053705.506][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1707053705.506][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1707053705.507][INFO]: Launching chrome: /opt/google/chrome/chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging=stderr --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.org.chromium.Chromium.rBj95q data:,
+[27269:27269:0204/153505.529993:WARNING:chrome_main_delegate.cc(667)] This is Chrome version 120.0.6099.71 (not a warning)
+/snap/core20/current/lib/x86_64-linux-gnu/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /lib/x86_64-linux-gnu/libproxy.so.1)
+Failed to load module: /home/aya/snap/code/common/.cache/gio-modules/libgiolibproxy.so
+[27269:27269:0204/153505.699215:INFO:policy_logger.cc(144)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(168) Starting CBCM Controller Initialization
+[27269:27269:0204/153505.699406:INFO:policy_logger.cc(144)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(196) No machine level policy manager exists.
+
+DevTools listening on ws://127.0.0.1:41177/devtools/browser/b1c57613-6c44-4fc7-abe0-5ab7fb164462
+[1707053705.770][DEBUG]: DevTools HTTP Request: http://localhost:41177/json/version
+[27269:27269:0204/153505.882914:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
+[1707053706.075][DEBUG]: DevTools HTTP Response: {
+   "Browser": "Chrome/120.0.6099.71",
+   "Protocol-Version": "1.3",
+   "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+   "V8-Version": "12.0.267.8",
+   "WebKit-Version": "537.36 (@9729082fe6174c0a371fc66501f5efc5d69d3d2b)",
+   "webSocketDebuggerUrl": "ws://localhost:41177/devtools/browser/b1c57613-6c44-4fc7-abe0-5ab7fb164462"
+}
+
+[1707053706.077][INFO]: Failed to connect to Chrome. Attempting to kill it.
+[1707053706.156][INFO]: [d3166d6f8c83aeaa56329322b080958c] RESPONSE InitSession ERROR session not created: This version of ChromeDriver only supports Chrome version 121
+Current browser version is 120.0.6099.71 with binary path /opt/google/chrome/chrome
+[1707053706.156][DEBUG]: Log type 'driver' lost 0 entries on destruction
+[1707053706.163][DEBUG]: Log type 'browser' lost 0 entries on destruction
+[27317:27317:0100/000000.809446:WARNING:sandbox_linux.cc(400)] InitializeSandbox() called with multiple threads in process gpu-process.
+[1707053707.171][INFO]: [160befd878a4381531c8d5e4bc7d5ced] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+         }
+      },
+      "firstMatch": [ {
+      } ]
+   }
+}
+[1707053707.171][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chrome
+[1707053707.171][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chrome
+[1707053707.171][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/google-chrome
+[1707053707.171][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chromium
+[1707053707.171][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chromium-browser
+[1707053707.171][INFO]: Browser search. Trying... /usr/local/sbin/chrome
+[1707053707.171][INFO]: Browser search. Trying... /usr/local/bin/chrome
+[1707053707.171][INFO]: Browser search. Trying... /usr/sbin/chrome
+[1707053707.172][INFO]: Browser search. Trying... /usr/bin/chrome
+[1707053707.172][INFO]: Browser search. Trying... /sbin/chrome
+[1707053707.172][INFO]: Browser search. Trying... /bin/chrome
+[1707053707.172][INFO]: Browser search. Trying... /opt/google/chrome/chrome
+[1707053707.172][INFO]: Browser search. Found at  /opt/google/chrome/chrome
+[1707053707.172][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1707053707.173][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1707053707.173][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1707053707.173][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1707053707.173][INFO]: Launching chrome: /opt/google/chrome/chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging=stderr --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.org.chromium.Chromium.ueRFPq data:,
+[27406:27406:0204/153507.207776:WARNING:chrome_main_delegate.cc(667)] This is Chrome version 120.0.6099.71 (not a warning)
+/snap/core20/current/lib/x86_64-linux-gnu/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /lib/x86_64-linux-gnu/libproxy.so.1)
+Failed to load module: /home/aya/snap/code/common/.cache/gio-modules/libgiolibproxy.so
+[27406:27406:0204/153507.373183:INFO:policy_logger.cc(144)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(168) Starting CBCM Controller Initialization
+[27406:27406:0204/153507.373257:INFO:policy_logger.cc(144)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(196) No machine level policy manager exists.
+
+DevTools listening on ws://127.0.0.1:35879/devtools/browser/671ed240-21fa-448b-b13c-ad615253b4aa
+[1707053707.443][DEBUG]: DevTools HTTP Request: http://localhost:35879/json/version
+[27406:27406:0204/153507.567237:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
+[27447:27447:0204/153507.573785:WARNING:sandbox_linux.cc(400)] InitializeSandbox() called with multiple threads in process gpu-process.
+[1707053707.825][DEBUG]: DevTools HTTP Response: {
+   "Browser": "Chrome/120.0.6099.71",
+   "Protocol-Version": "1.3",
+   "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+   "V8-Version": "12.0.267.8",
+   "WebKit-Version": "537.36 (@9729082fe6174c0a371fc66501f5efc5d69d3d2b)",
+   "webSocketDebuggerUrl": "ws://localhost:35879/devtools/browser/671ed240-21fa-448b-b13c-ad615253b4aa"
+}
+
+[1707053707.827][INFO]: Failed to connect to Chrome. Attempting to kill it.
+[1707053707.900][INFO]: [160befd878a4381531c8d5e4bc7d5ced] RESPONSE InitSession ERROR session not created: This version of ChromeDriver only supports Chrome version 121
+Current browser version is 120.0.6099.71 with binary path /opt/google/chrome/chrome
+[1707053707.904][DEBUG]: Log type 'driver' lost 0 entries on destruction
+[1707053707.904][DEBUG]: Log type 'browser' lost 0 entries on destruction
+[1707053708.906][INFO]: [8a3064296e97cb9b0bb7a3ae825f798a] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+         }
+      },
+      "firstMatch": [ {
+      } ]
+   }
+}
+[1707053708.906][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chrome
+[1707053708.906][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chrome
+[1707053708.906][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/google-chrome
+[1707053708.906][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chromium
+[1707053708.906][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chromium-browser
+[1707053708.906][INFO]: Browser search. Trying... /usr/local/sbin/chrome
+[1707053708.906][INFO]: Browser search. Trying... /usr/local/bin/chrome
+[1707053708.906][INFO]: Browser search. Trying... /usr/sbin/chrome
+[1707053708.906][INFO]: Browser search. Trying... /usr/bin/chrome
+[1707053708.906][INFO]: Browser search. Trying... /sbin/chrome
+[1707053708.906][INFO]: Browser search. Trying... /bin/chrome
+[1707053708.906][INFO]: Browser search. Trying... /opt/google/chrome/chrome
+[1707053708.906][INFO]: Browser search. Found at  /opt/google/chrome/chrome
+[1707053708.907][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1707053708.907][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1707053708.907][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1707053708.907][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1707053708.907][INFO]: Launching chrome: /opt/google/chrome/chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging=stderr --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.org.chromium.Chromium.PpGnwu data:,
+[27542:27542:0204/153508.943492:WARNING:chrome_main_delegate.cc(667)] This is Chrome version 120.0.6099.71 (not a warning)
+/snap/core20/current/lib/x86_64-linux-gnu/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /lib/x86_64-linux-gnu/libproxy.so.1)
+Failed to load module: /home/aya/snap/code/common/.cache/gio-modules/libgiolibproxy.so
+[27542:27542:0204/153509.126079:INFO:policy_logger.cc(144)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(168) Starting CBCM Controller Initialization
+[27542:27542:0204/153509.126120:INFO:policy_logger.cc(144)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(196) No machine level policy manager exists.
+
+DevTools listening on ws://127.0.0.1:40313/devtools/browser/2b1c2912-ec08-4e1e-a416-20852f511586
+[1707053709.233][DEBUG]: DevTools HTTP Request: http://localhost:40313/json/version
+[27542:27542:0204/153509.358329:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
+[27587:27587:0204/153509.479577:WARNING:sandbox_linux.cc(400)] InitializeSandbox() called with multiple threads in process gpu-process.
+[1707053709.603][DEBUG]: DevTools HTTP Response: {
+   "Browser": "Chrome/120.0.6099.71",
+   "Protocol-Version": "1.3",
+   "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+   "V8-Version": "12.0.267.8",
+   "WebKit-Version": "537.36 (@9729082fe6174c0a371fc66501f5efc5d69d3d2b)",
+   "webSocketDebuggerUrl": "ws://localhost:40313/devtools/browser/2b1c2912-ec08-4e1e-a416-20852f511586"
+}
+
+[1707053709.606][INFO]: Failed to connect to Chrome. Attempting to kill it.
+[1707053709.675][INFO]: [8a3064296e97cb9b0bb7a3ae825f798a] RESPONSE InitSession ERROR session not created: This version of ChromeDriver only supports Chrome version 121
+Current browser version is 120.0.6099.71 with binary path /opt/google/chrome/chrome
