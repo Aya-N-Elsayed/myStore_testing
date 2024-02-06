@@ -1,29 +1,110 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="6"
-            failures="1"
-            tests="1">
+<testsuites errors="5"
+            failures="0"
+            tests="9">
 
   <testsuite name="contactUsTest"
-    errors="6" failures="1" hostname="" id="" package="contactUsTest" skipped="0"
-    tests="1" time="79.05" timestamp="">
+    errors="5" failures="0" hostname="" id="" package="contactUsTest" skipped="0"
+    tests="9" time="1074" timestamp="">
   
-    <testcase name="Contact Us Form Test" classname="contactUsTest" time="39.52" assertions="2">
-
-      <failure message="Testing if element &lt;Element [name=@alertDanger]&gt; contains text &#39;Invalid email address.&#39; in 5000ms - expected &#34;contains text &#39;Invalid email address.&#39;&#34; but got: &#34;element could not be located&#34; (5197ms)">    at Contact Us Form Test (/home/aya/Documents/myStore_testing/UI_test/tests/contactUsTest.js:25:15)</failure>
+    <testcase name="Contact Us Form Test - Valid Submission" classname="contactUsTest" time="8.679" assertions="4">
 
     
-    <error message="no such window: target window already closed
-from unknown error: web view not found
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Contact Us Form Test - Invalid Submission: Empty Email" classname="contactUsTest" time="8.353" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Contact Us Form Test - Invalid Submission: Empty Message" classname="contactUsTest" time="7.652" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Contact Us Form Test - Invalid Submission: Empty Message with Order Reference" classname="contactUsTest" time="8.096" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Contact Us Form Test - Missing Subject" classname="contactUsTest" time="270.4" assertions="0">
+    <error message="An error occurred while creating a new ChromeDriver session: [Error] ECONNRESET socket hang up" type="error"><![CDATA[
+    Error: An error occurred while creating a new ChromeDriver session: [Error] ECONNRESET socket hang up
+    at Timeout._onTimeout (/home/aya/Documents/myStore_testing/UI_test/node_modules/nightwatch/lib/transport/selenium-webdriver/httpclient.js:90:27)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+    ]]></error>
+    
+    </testcase>
+  
+    <testcase name="Contact Us Form Test - Invalid Email" classname="contactUsTest" time="46.65" assertions="0">
+    <error message="An error occurred while creating a new ChromeDriver session: [WebDriverError] disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
   (Session info: chrome=121.0.6167.139)" type="error"><![CDATA[
-    NoSuchWindowError: no such window: target window already closed
-from unknown error: web view not found
+    WebDriverError: An error occurred while creating a new ChromeDriver session: [WebDriverError] disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
   (Session info: chrome=121.0.6167.139)
     at Object.throwDecodedError (/home/aya/Documents/myStore_testing/UI_test/node_modules/selenium-webdriver/lib/error.js:524:15)
     at parseHttpResponse (/home/aya/Documents/myStore_testing/UI_test/node_modules/selenium-webdriver/lib/http.js:601:13)
     at Executor.execute (/home/aya/Documents/myStore_testing/UI_test/node_modules/selenium-webdriver/lib/http.js:529:28)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async Driver.execute (/home/aya/Documents/myStore_testing/UI_test/node_modules/selenium-webdriver/lib/webdriver.js:745:17)
-    at async Driver.findElements (/home/aya/Documents/myStore_testing/UI_test/node_modules/selenium-webdriver/lib/webdriver.js:1089:17)
+    ]]></error>
+    
+    </testcase>
+  
+    <testcase name="Contact Us Form Test - File Upload" classname="contactUsTest" time="155.9" assertions="0">
+    <error message="An error occurred while creating a new ChromeDriver session: [WebDriverError] disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=121.0.6167.139)" type="error"><![CDATA[
+    WebDriverError: An error occurred while creating a new ChromeDriver session: [WebDriverError] disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=121.0.6167.139)
+    at Object.throwDecodedError (/home/aya/Documents/myStore_testing/UI_test/node_modules/selenium-webdriver/lib/error.js:524:15)
+    at parseHttpResponse (/home/aya/Documents/myStore_testing/UI_test/node_modules/selenium-webdriver/lib/http.js:601:13)
+    at Executor.execute (/home/aya/Documents/myStore_testing/UI_test/node_modules/selenium-webdriver/lib/http.js:529:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    ]]></error>
+    
+    </testcase>
+  
+    <testcase name="Contact Us Form Test - Fields State After Reload" classname="contactUsTest" time="24.52" assertions="0">
+    <error message="An error occurred while creating a new ChromeDriver session: [WebDriverError] disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=121.0.6167.139)" type="error"><![CDATA[
+    WebDriverError: An error occurred while creating a new ChromeDriver session: [WebDriverError] disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=121.0.6167.139)
+    at Object.throwDecodedError (/home/aya/Documents/myStore_testing/UI_test/node_modules/selenium-webdriver/lib/error.js:524:15)
+    at parseHttpResponse (/home/aya/Documents/myStore_testing/UI_test/node_modules/selenium-webdriver/lib/http.js:601:13)
+    at Executor.execute (/home/aya/Documents/myStore_testing/UI_test/node_modules/selenium-webdriver/lib/http.js:529:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    ]]></error>
+    
+    </testcase>
+  
+    <testcase name="Contact Us Form - Script Injection" classname="contactUsTest" time="6.914" assertions="0">
+    <error message="An error occurred while creating a new ChromeDriver session: [WebDriverError] disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=121.0.6167.139)" type="error"><![CDATA[
+    WebDriverError: An error occurred while creating a new ChromeDriver session: [WebDriverError] disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=121.0.6167.139)
+    at Object.throwDecodedError (/home/aya/Documents/myStore_testing/UI_test/node_modules/selenium-webdriver/lib/error.js:524:15)
+    at parseHttpResponse (/home/aya/Documents/myStore_testing/UI_test/node_modules/selenium-webdriver/lib/http.js:601:13)
+    at Executor.execute (/home/aya/Documents/myStore_testing/UI_test/node_modules/selenium-webdriver/lib/http.js:529:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     ]]></error>
     
     </testcase>
@@ -31,98 +112,89 @@ from unknown error: web view not found
 
   
     <system-err>
-       NoSuchElementError
-   An element could not be located on the page using the given search parameters.
+       An error occurred while creating a new ChromeDriver session: [Error] ECONNRESET socket hang up
+  Verify if ChromeDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: &#39;/home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chromedriver&#39;,
+     port: 9515,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
 
-    Try fixing by :
-    1. Please inspect the html before the step
-    2. Verify if an element with the mentioned selector is present in the DOM tree
-
-    Error location:
-    /home/aya/Documents/myStore_testing/UI_test/tests/contactUsTest.js:24
-    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-     22 |     // Test: Invalid form submission (missing required fields)
-     23 |     contactUsPage
-     24 |       .fillForm(&#34;&#34;, &#34;&#34;, &#34;&#34;, &#34;&#34;) 
-     25 |       .assert.containsText(&#34;@alertDanger&#34;, &#34;Invalid email address.&#34;);
-     26 | 
-    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-
- NoSuchElementError
-   An element could not be located on the page using the given search parameters.
-
-    Try fixing by :
-    1. Please inspect the html before the step
-    2. Verify if an element with the mentioned selector is present in the DOM tree
-
-    Error location:
-    /home/aya/Documents/myStore_testing/UI_test/tests/contactUsTest.js:24
-    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-     22 |     // Test: Invalid form submission (missing required fields)
-     23 |     contactUsPage
-     24 |       .fillForm(&#34;&#34;, &#34;&#34;, &#34;&#34;, &#34;&#34;) 
-     25 |       .assert.containsText(&#34;@alertDanger&#34;, &#34;Invalid email address.&#34;);
-     26 | 
-    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-
- NoSuchElementError
-   An element could not be located on the page using the given search parameters.
-    {&#34;error&#34;:{&#34;name&#34;:&#34;NoSuchWindowError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
-
-    Try fixing by :
-    1. Please inspect the html before the step
-    2. Verify if an element with the mentioned selector is present in the DOM tree
-
-    Error location:
-    /home/aya/Documents/myStore_testing/UI_test/tests/contactUsTest.js:24
-    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-     22 |     // Test: Invalid form submission (missing required fields)
-     23 |     contactUsPage
-     24 |       .fillForm(&#34;&#34;, &#34;&#34;, &#34;&#34;, &#34;&#34;) 
-     25 |       .assert.containsText(&#34;@alertDanger&#34;, &#34;Invalid email address.&#34;);
-     26 | 
-    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-
- NoSuchElementError
-   An element could not be located on the page using the given search parameters.
-    {&#34;error&#34;:{&#34;name&#34;:&#34;NoSuchWindowError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
-
-    Try fixing by :
-    1. Please inspect the html before the step
-    2. Verify if an element with the mentioned selector is present in the DOM tree
-
-    Error location:
-    /home/aya/Documents/myStore_testing/UI_test/tests/contactUsTest.js:24
-    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-     22 |     // Test: Invalid form submission (missing required fields)
-     23 |     contactUsPage
-     24 |       .fillForm(&#34;&#34;, &#34;&#34;, &#34;&#34;, &#34;&#34;) 
-     25 |       .assert.containsText(&#34;@alertDanger&#34;, &#34;Invalid email address.&#34;);
-     26 | 
-    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-
- NoSuchElementError
-   An element could not be located on the page using the given search parameters.
-    {&#34;error&#34;:{&#34;name&#34;:&#34;NoSuchWindowError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
-
-    Try fixing by :
-    1. Please inspect the html before the step
-    2. Verify if an element with the mentioned selector is present in the DOM tree
-
-    Error location:
-    /home/aya/Documents/myStore_testing/UI_test/tests/contactUsTest.js:24
-    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-     22 |     // Test: Invalid form submission (missing required fields)
-     23 |     contactUsPage
-     24 |       .fillForm(&#34;&#34;, &#34;&#34;, &#34;&#34;, &#34;&#34;) 
-     25 |       .assert.containsText(&#34;@alertDanger&#34;, &#34;Invalid email address.&#34;);
-     26 | 
-    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-
- NoSuchWindowError
-   no such window: target window already closed
-from unknown error: web view not found
+ 
+  More info might be available in the log file: /home/aya/Documents/myStore_testing/UI_test/logs/contactUsTest_chromedriver.log
+ An error occurred while creating a new ChromeDriver session: [WebDriverError] disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
   (Session info: chrome=121.0.6167.139)
+  Verify if ChromeDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: &#39;/home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chromedriver&#39;,
+     port: 9515,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
+
+ 
+  More info might be available in the log file: /home/aya/Documents/myStore_testing/UI_test/logs/contactUsTest_chromedriver.log
+ An error occurred while creating a new ChromeDriver session: [WebDriverError] disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=121.0.6167.139)
+  Verify if ChromeDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: &#39;/home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chromedriver&#39;,
+     port: 9515,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
+
+ 
+  More info might be available in the log file: /home/aya/Documents/myStore_testing/UI_test/logs/contactUsTest_chromedriver.log
+ An error occurred while creating a new ChromeDriver session: [WebDriverError] disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=121.0.6167.139)
+  Verify if ChromeDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: &#39;/home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chromedriver&#39;,
+     port: 9515,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
+
+ 
+  More info might be available in the log file: /home/aya/Documents/myStore_testing/UI_test/logs/contactUsTest_chromedriver.log
+ An error occurred while creating a new ChromeDriver session: [WebDriverError] disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=121.0.6167.139)
+  Verify if ChromeDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: &#39;/home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chromedriver&#39;,
+     port: 9515,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
+
+ 
+  More info might be available in the log file: /home/aya/Documents/myStore_testing/UI_test/logs/contactUsTest_chromedriver.log
     </system-err>
   
 

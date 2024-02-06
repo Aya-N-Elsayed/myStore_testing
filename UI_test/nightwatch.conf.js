@@ -39,6 +39,8 @@ module.exports = {
 
   test_settings: {
     default: {
+      skip_testcases_on_fail: false,
+
       disable_error_log: false,
       launch_url: 'http://automationpractice.multiformis.com/index.php',
 
@@ -60,6 +62,8 @@ module.exports = {
     },
     
     chrome: {
+      skip_testcases_on_fail: false,
+
       desiredCapabilities: {
         browserName: 'chrome',
         'goog:chromeOptions': {

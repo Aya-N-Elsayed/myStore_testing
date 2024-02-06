@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="homeTest"
+    errors="1" failures="0" hostname="" id="" package="homeTest" skipped="1"
+    tests="0" time="0.004000" timestamp="">
+  
+
+  
+    <system-err>
+       An error occurred while creating a new ChromeDriver session: [Error] ECONNRESET socket hang up
+  Verify if ChromeDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: &#39;/home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chromedriver&#39;,
+     port: 9515,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
+
+ 
+  More info might be available in the log file: /home/aya/Documents/myStore_testing/UI_test/logs/homeTest_chromedriver.log
+    </system-err>
+  
+
+    
+    <error message="An error occurred while creating a new ChromeDriver session: [Error] ECONNRESET socket hang up"><![CDATA[
+      Error: An error occurred while creating a new ChromeDriver session: [Error] ECONNRESET socket hang up
+    at Timeout._onTimeout (/home/aya/Documents/myStore_testing/UI_test/node_modules/nightwatch/lib/transport/selenium-webdriver/httpclient.js:90:27)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Search for &#34;dress&#34; and verify results" classname="homeTest">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
