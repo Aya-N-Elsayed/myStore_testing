@@ -5,12 +5,12 @@
 
   <testsuite name="homeTest"
     errors="1" failures="0" hostname="" id="" package="homeTest" skipped="1"
-    tests="0" time="0.004000" timestamp="">
+    tests="0" time="0.002000" timestamp="">
   
 
   
     <system-err>
-       An error occurred while creating a new ChromeDriver session: [Error] ECONNRESET socket hang up
+       An error occurred while creating a new ChromeDriver session: [Error] Server terminated early with status 1
   Verify if ChromeDriver is configured correctly; using:
   {
      start_process: true,
@@ -29,17 +29,16 @@
   
 
     
-    <error message="An error occurred while creating a new ChromeDriver session: [Error] ECONNRESET socket hang up"><![CDATA[
-      Error: An error occurred while creating a new ChromeDriver session: [Error] ECONNRESET socket hang up
-    at Timeout._onTimeout (/home/aya/Documents/myStore_testing/UI_test/node_modules/nightwatch/lib/transport/selenium-webdriver/httpclient.js:90:27)
-    at listOnTimeout (node:internal/timers:569:17)
-    at process.processTimers (node:internal/timers:512:7)
+    <error message="An error occurred while creating a new ChromeDriver session: [Error] Server terminated early with status 1"><![CDATA[
+      Error: An error occurred while creating a new ChromeDriver session: [Error] Server terminated early with status 1
+    at /home/aya/Documents/myStore_testing/UI_test/node_modules/selenium-webdriver/remote/index.js:259:24
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
       ]]></error>  
 
   
     
     <testcase
-      name="Search for &#34;dress&#34; and verify results" classname="homeTest">
+      name="Search for &#34;Dress&#34; and Verify Product Titles" classname="homeTest">
       <skipped />
     </testcase>
     

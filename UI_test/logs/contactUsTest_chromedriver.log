@@ -2,7 +2,7 @@ Starting ChromeDriver 121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-re
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1707131722.276][INFO]: [1447d7bfe171f828e6c4f081418a1589] COMMAND InitSession {
+[1707425533.533][INFO]: [db0eb10fc8c011d02e2262162ecd2c24] COMMAND InitSession {
    "capabilities": {
       "alwaysMatch": {
          "browserName": "chrome",
@@ -13,20 +13,20 @@ ChromeDriver was started successfully.
       } ]
    }
 }
-[1707131722.276][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chrome
-[1707131722.276][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chrome
-[1707131722.276][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/google-chrome
-[1707131722.276][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chromium
-[1707131722.276][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chromium-browser
-[1707131722.276][INFO]: Browser search. Trying... /usr/local/sbin/chrome
-[1707131722.276][INFO]: Browser search. Trying... /usr/local/bin/chrome
-[1707131722.276][INFO]: Browser search. Trying... /usr/sbin/chrome
-[1707131722.276][INFO]: Browser search. Trying... /usr/bin/chrome
-[1707131722.276][INFO]: Browser search. Trying... /sbin/chrome
-[1707131722.276][INFO]: Browser search. Trying... /bin/chrome
-[1707131722.276][INFO]: Browser search. Trying... /opt/google/chrome/chrome
-[1707131722.276][INFO]: Browser search. Found at  /opt/google/chrome/chrome
-[1707131722.277][INFO]: Populating Preferences file: {
+[1707425533.533][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chrome
+[1707425533.533][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chrome
+[1707425533.534][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/google-chrome
+[1707425533.534][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chromium
+[1707425533.534][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chromium-browser
+[1707425533.534][INFO]: Browser search. Trying... /usr/local/sbin/chrome
+[1707425533.534][INFO]: Browser search. Trying... /usr/local/bin/chrome
+[1707425533.534][INFO]: Browser search. Trying... /usr/sbin/chrome
+[1707425533.534][INFO]: Browser search. Trying... /usr/bin/chrome
+[1707425533.534][INFO]: Browser search. Trying... /sbin/chrome
+[1707425533.534][INFO]: Browser search. Trying... /bin/chrome
+[1707425533.534][INFO]: Browser search. Trying... /opt/google/chrome/chrome
+[1707425533.534][INFO]: Browser search. Found at  /opt/google/chrome/chrome
+[1707425533.534][INFO]: Populating Preferences file: {
    "alternate_error_pages": {
       "enabled": false
    },
@@ -79,7 +79,7 @@ ChromeDriver was started successfully.
       "enabled": false
    }
 }
-[1707131722.277][INFO]: Populating Local State file: {
+[1707425533.534][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
@@ -89,109 +89,105 @@ ChromeDriver was started successfully.
       }
    }
 }
-[1707131722.277][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
-[1707131722.277][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
-[1707131722.277][INFO]: Launching chrome: /opt/google/chrome/chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging=stderr --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.org.chromium.Chromium.xttXrt data:,
-[0205/131522.300298:WARNING:chrome_main_linux.cc(80)] Read channel stable from /opt/google/chrome/CHROME_VERSION_EXTRA
-[11517:11517:0205/131522.302091:WARNING:chrome_main_delegate.cc(668)] This is Chrome version 121.0.6167.139 (not a warning)
-[11517:11517:0205/131522.343841:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping mandatory platform policies because no policy file was found at: /etc/opt/chrome/policies/managed
-[11517:11517:0205/131522.343866:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping recommended platform policies because no policy file was found at: /etc/opt/chrome/policies/recommended
+[1707425533.534][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1707425533.534][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1707425533.534][INFO]: Launching chrome: /opt/google/chrome/chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging=stderr --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.org.chromium.Chromium.jcZbWw data:,
+[0208/225213.554380:WARNING:chrome_main_linux.cc(80)] Read channel stable from /opt/google/chrome/CHROME_VERSION_EXTRA
+[21890:21890:0208/225213.555640:WARNING:chrome_main_delegate.cc(668)] This is Chrome version 121.0.6167.160 (not a warning)
+[21890:21890:0208/225213.592559:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping mandatory platform policies because no policy file was found at: /etc/opt/chrome/policies/managed
+[21890:21890:0208/225213.592587:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping recommended platform policies because no policy file was found at: /etc/opt/chrome/policies/recommended
 /snap/core20/current/lib/x86_64-linux-gnu/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /lib/x86_64-linux-gnu/libproxy.so.1)
 Failed to load module: /home/aya/snap/code/common/.cache/gio-modules/libgiolibproxy.so
-[11517:11517:0205/131522.445828:INFO:policy_logger.cc(144)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(168) Starting CBCM Controller Initialization
-[11517:11517:0205/131522.446012:INFO:policy_logger.cc(144)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(196) No machine level policy manager exists.
+[21890:21890:0208/225213.701593:INFO:policy_logger.cc(144)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(168) Starting CBCM Controller Initialization
+[21890:21890:0208/225213.701657:INFO:policy_logger.cc(144)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(196) No machine level policy manager exists.
 
-DevTools listening on ws://127.0.0.1:46489/devtools/browser/29388691-e490-4f59-984b-268e2b03d517
-[1707131722.545][DEBUG]: DevTools HTTP Request: http://localhost:46489/json/version
-[11517:11517:0205/131522.642756:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
-[1707131722.837][DEBUG]: DevTools HTTP Response: {
-   "Browser": "Chrome/121.0.6167.139",
+DevTools listening on ws://127.0.0.1:38517/devtools/browser/9a44982e-527f-4f77-a50c-e27fcbc53c13
+[1707425533.797][DEBUG]: DevTools HTTP Request: http://localhost:38517/json/version
+[21890:21890:0208/225213.900333:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
+[1707425534.148][DEBUG]: DevTools HTTP Response: {
+   "Browser": "Chrome/121.0.6167.160",
    "Protocol-Version": "1.3",
    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
    "V8-Version": "12.1.285.28",
-   "WebKit-Version": "537.36 (@a5856993c61543d4acbee5f848f1750607e87ba0)",
-   "webSocketDebuggerUrl": "ws://localhost:46489/devtools/browser/29388691-e490-4f59-984b-268e2b03d517"
+   "WebKit-Version": "537.36 (@8e23a63b5dead78825bec5ef48f4aeb5698ce21a)",
+   "webSocketDebuggerUrl": "ws://localhost:38517/devtools/browser/9a44982e-527f-4f77-a50c-e27fcbc53c13"
 }
 
-[1707131722.837][DEBUG]: DevTools HTTP Request: http://localhost:46489/json/list
-[1707131722.855][DEBUG]: DevTools HTTP Response: [ {
+[1707425534.148][DEBUG]: DevTools HTTP Request: http://localhost:38517/json/list
+[1707425534.167][DEBUG]: DevTools HTTP Response: [ {
    "description": "",
-   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:46489/devtools/page/6FD66F78590FA3369C8BDD43BE13CFE8",
-   "id": "6FD66F78590FA3369C8BDD43BE13CFE8",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:38517/devtools/page/E0475194E7FF3842B382CFBB853294CA",
+   "id": "E0475194E7FF3842B382CFBB853294CA",
    "title": "",
    "type": "page",
    "url": "data:,",
-   "webSocketDebuggerUrl": "ws://localhost:46489/devtools/page/6FD66F78590FA3369C8BDD43BE13CFE8"
+   "webSocketDebuggerUrl": "ws://localhost:38517/devtools/page/E0475194E7FF3842B382CFBB853294CA"
 } ]
 
-[1707131722.856][INFO]: resolved localhost to ["127.0.0.1"]
-[11517:11517:0205/131522.855704:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.ScreenSaver.GetActive: object_path= /org/freedesktop/ScreenSaver: org.freedesktop.DBus.Error.NotSupported: This method is not implemented
-[1707131722.860][DEBUG]: DevTools WebSocket Command: Target.getTargets (id=1) (session_id=) browser {
+[1707425534.168][INFO]: resolved localhost to ["127.0.0.1"]
+[21890:21890:0208/225214.167655:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.ScreenSaver.GetActive: object_path= /org/freedesktop/ScreenSaver: org.freedesktop.DBus.Error.NotSupported: This method is not implemented
+[1707425534.172][DEBUG]: DevTools WebSocket Command: Target.getTargets (id=1) (session_id=) browser {
 }
-[1707131722.861][DEBUG]: DevTools WebSocket Response: Target.getTargets (id=1) (session_id=) browser {
+[1707425534.174][DEBUG]: DevTools WebSocket Response: Target.getTargets (id=1) (session_id=) browser {
    "targetInfos": [ {
       "attached": false,
-      "browserContextId": "FD759034CCF0F857E844586B0A05CD15",
+      "browserContextId": "07C753FC9CCB9FC3AF2BC839EA21C5E0",
       "canAccessOpener": false,
-      "targetId": "6FD66F78590FA3369C8BDD43BE13CFE8",
+      "targetId": "E0475194E7FF3842B382CFBB853294CA",
       "title": "",
       "type": "page",
       "url": "data:,"
    } ]
 }
-[1707131722.861][DEBUG]: DevTools WebSocket Command: Target.attachToTarget (id=2) (session_id=) browser {
+[1707425534.174][DEBUG]: DevTools WebSocket Command: Target.attachToTarget (id=2) (session_id=) browser {
    "flatten": true,
-   "targetId": "6FD66F78590FA3369C8BDD43BE13CFE8"
+   "targetId": "E0475194E7FF3842B382CFBB853294CA"
 }
-[1707131722.862][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget (session_id=) browser {
-   "sessionId": "08B2E7253E9D8CBE8EB58752B582B0BB",
+[1707425534.178][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget (session_id=) browser {
+   "sessionId": "66A781FEAA0A9CB31EEAC7B26F6E7FE1",
    "targetInfo": {
       "attached": true,
-      "browserContextId": "FD759034CCF0F857E844586B0A05CD15",
+      "browserContextId": "07C753FC9CCB9FC3AF2BC839EA21C5E0",
       "canAccessOpener": false,
-      "targetId": "6FD66F78590FA3369C8BDD43BE13CFE8",
+      "targetId": "E0475194E7FF3842B382CFBB853294CA",
       "title": "",
       "type": "page",
       "url": "data:,"
    },
    "waitingForDebugger": false
 }
-[1707131722.863][DEBUG]: DevTools WebSocket Response: Target.attachToTarget (id=2) (session_id=) browser {
-   "sessionId": "08B2E7253E9D8CBE8EB58752B582B0BB"
+[1707425534.178][DEBUG]: DevTools WebSocket Response: Target.attachToTarget (id=2) (session_id=) browser {
+   "sessionId": "66A781FEAA0A9CB31EEAC7B26F6E7FE1"
 }
-[1707131722.863][DEBUG]: DevTools WebSocket Command: Page.enable (id=3) (session_id=08B2E7253E9D8CBE8EB58752B582B0BB) 6FD66F78590FA3369C8BDD43BE13CFE8 {
+[1707425534.178][DEBUG]: DevTools WebSocket Command: Page.enable (id=3) (session_id=66A781FEAA0A9CB31EEAC7B26F6E7FE1) E0475194E7FF3842B382CFBB853294CA {
 }
-[1707131722.863][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=4) (session_id=08B2E7253E9D8CBE8EB58752B582B0BB) 6FD66F78590FA3369C8BDD43BE13CFE8 {
+[1707425534.178][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=4) (session_id=66A781FEAA0A9CB31EEAC7B26F6E7FE1) E0475194E7FF3842B382CFBB853294CA {
    "source": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Object = window.Object;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_a..."
 }
-[1707131722.863][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=5) (session_id=08B2E7253E9D8CBE8EB58752B582B0BB) 6FD66F78590FA3369C8BDD43BE13CFE8 {
+[1707425534.178][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=5) (session_id=66A781FEAA0A9CB31EEAC7B26F6E7FE1) E0475194E7FF3842B382CFBB853294CA {
    "expression": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Object = window.Object;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_a..."
 }
-[1707131722.863][DEBUG]: DevTools WebSocket Command: Log.enable (id=6) (session_id=08B2E7253E9D8CBE8EB58752B582B0BB) 6FD66F78590FA3369C8BDD43BE13CFE8 {
+[1707425534.178][DEBUG]: DevTools WebSocket Command: Log.enable (id=6) (session_id=66A781FEAA0A9CB31EEAC7B26F6E7FE1) E0475194E7FF3842B382CFBB853294CA {
 }
-[1707131722.863][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=7) (session_id=08B2E7253E9D8CBE8EB58752B582B0BB) 6FD66F78590FA3369C8BDD43BE13CFE8 {
+[1707425534.178][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=7) (session_id=66A781FEAA0A9CB31EEAC7B26F6E7FE1) E0475194E7FF3842B382CFBB853294CA {
    "autoAttach": true,
    "flatten": true,
    "waitForDebuggerOnStart": false
 }
-[1707131722.863][DEBUG]: DevTools WebSocket Command: Page.enable (id=8) (session_id=08B2E7253E9D8CBE8EB58752B582B0BB) 6FD66F78590FA3369C8BDD43BE13CFE8 {
+[1707425534.178][DEBUG]: DevTools WebSocket Command: Page.enable (id=8) (session_id=66A781FEAA0A9CB31EEAC7B26F6E7FE1) E0475194E7FF3842B382CFBB853294CA {
 }
-[1707131722.864][DEBUG]: DevTools WebSocket Command: Page.enable (id=9) (session_id=08B2E7253E9D8CBE8EB58752B582B0BB) 6FD66F78590FA3369C8BDD43BE13CFE8 {
+[1707425534.178][DEBUG]: DevTools WebSocket Command: Page.enable (id=9) (session_id=66A781FEAA0A9CB31EEAC7B26F6E7FE1) E0475194E7FF3842B382CFBB853294CA {
 }
-[1707131723.741][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=08B2E7253E9D8CBE8EB58752B582B0BB) 6FD66F78590FA3369C8BDD43BE13CFE8 {
-   "frameId": "6FD66F78590FA3369C8BDD43BE13CFE8"
-}
-[1707131723.741][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=7) (session_id=08B2E7253E9D8CBE8EB58752B582B0BB) 6FD66F78590FA3369C8BDD43BE13CFE8 {
-}
-[1707131723.741][DEBUG]: DevTools WebSocket Event: Inspector.detached (session_id=08B2E7253E9D8CBE8EB58752B582B0BB) 6FD66F78590FA3369C8BDD43BE13CFE8 {
-   "reason": "Render process gone."
-}
-[1707131723.808][INFO]: [1447d7bfe171f828e6c4f081418a1589] RESPONSE InitSession ERROR disconnected: received Inspector.detached event
-  (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: chrome=121.0.6167.139)
-[1707131723.808][DEBUG]: Log type 'driver' lost 0 entries on destruction
-[1707131723.808][DEBUG]: Log type 'browser' lost 0 entries on destruction
-[1707131724.813][INFO]: [7a819b08864d328cf281f7e627b83e8e] COMMAND InitSession {
+[21890:21890:0208/225224.476304:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:265059
+[21890:21890:0208/225224.603400:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:5087
+[21890:21890:0208/225226.562288:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:883094
+[21890:21890:0208/225229.507084:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:2222106
+[21890:21890:0208/225229.629301:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:45116
+[21890:21890:0208/225233.093969:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:2746900
+[21890:21890:0208/225233.240867:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:3844
+[21890:21890:0208/225234.994095:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:1463571
+[21890:21890:0208/225237.615471:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:33994661
+[1707425623.653][INFO]: [5554c6516b3271dfceaa6c565a87c1ca] COMMAND InitSession {
    "capabilities": {
       "alwaysMatch": {
          "browserName": "chrome",
@@ -202,20 +198,20 @@ DevTools listening on ws://127.0.0.1:46489/devtools/browser/29388691-e490-4f59-9
       } ]
    }
 }
-[1707131724.814][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chrome
-[1707131724.814][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chrome
-[1707131724.814][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/google-chrome
-[1707131724.814][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chromium
-[1707131724.814][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chromium-browser
-[1707131724.814][INFO]: Browser search. Trying... /usr/local/sbin/chrome
-[1707131724.814][INFO]: Browser search. Trying... /usr/local/bin/chrome
-[1707131724.814][INFO]: Browser search. Trying... /usr/sbin/chrome
-[1707131724.814][INFO]: Browser search. Trying... /usr/bin/chrome
-[1707131724.814][INFO]: Browser search. Trying... /sbin/chrome
-[1707131724.814][INFO]: Browser search. Trying... /bin/chrome
-[1707131724.814][INFO]: Browser search. Trying... /opt/google/chrome/chrome
-[1707131724.814][INFO]: Browser search. Found at  /opt/google/chrome/chrome
-[1707131724.815][INFO]: Populating Preferences file: {
+[1707425623.654][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chrome
+[1707425623.654][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chrome
+[1707425623.654][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/google-chrome
+[1707425623.654][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chromium
+[1707425623.654][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chromium-browser
+[1707425623.654][INFO]: Browser search. Trying... /usr/local/sbin/chrome
+[1707425623.654][INFO]: Browser search. Trying... /usr/local/bin/chrome
+[1707425623.655][INFO]: Browser search. Trying... /usr/sbin/chrome
+[1707425623.659][INFO]: Browser search. Trying... /usr/bin/chrome
+[1707425623.660][INFO]: Browser search. Trying... /sbin/chrome
+[1707425623.660][INFO]: Browser search. Trying... /bin/chrome
+[1707425623.660][INFO]: Browser search. Trying... /opt/google/chrome/chrome
+[1707425623.660][INFO]: Browser search. Found at  /opt/google/chrome/chrome
+[1707425623.661][INFO]: Populating Preferences file: {
    "alternate_error_pages": {
       "enabled": false
    },
@@ -268,7 +264,7 @@ DevTools listening on ws://127.0.0.1:46489/devtools/browser/29388691-e490-4f59-9
       "enabled": false
    }
 }
-[1707131724.815][INFO]: Populating Local State file: {
+[1707425623.661][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
@@ -278,109 +274,105 @@ DevTools listening on ws://127.0.0.1:46489/devtools/browser/29388691-e490-4f59-9
       }
    }
 }
-[1707131724.816][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
-[1707131724.816][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
-[1707131724.816][INFO]: Launching chrome: /opt/google/chrome/chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging=stderr --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.org.chromium.Chromium.qhlXns data:,
-[0205/131524.862803:WARNING:chrome_main_linux.cc(80)] Read channel stable from /opt/google/chrome/CHROME_VERSION_EXTRA
-[11714:11714:0205/131524.864263:WARNING:chrome_main_delegate.cc(668)] This is Chrome version 121.0.6167.139 (not a warning)
-[11714:11714:0205/131524.901195:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping mandatory platform policies because no policy file was found at: /etc/opt/chrome/policies/managed
-[11714:11714:0205/131524.901218:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping recommended platform policies because no policy file was found at: /etc/opt/chrome/policies/recommended
+[1707425623.662][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1707425623.662][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1707425623.662][INFO]: Launching chrome: /opt/google/chrome/chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging=stderr --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.org.chromium.Chromium.8BxaDx data:,
+[0208/225343.730152:WARNING:chrome_main_linux.cc(80)] Read channel stable from /opt/google/chrome/CHROME_VERSION_EXTRA
+[23132:23132:0208/225343.732669:WARNING:chrome_main_delegate.cc(668)] This is Chrome version 121.0.6167.160 (not a warning)
+[23132:23132:0208/225343.771606:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping mandatory platform policies because no policy file was found at: /etc/opt/chrome/policies/managed
+[23132:23132:0208/225343.771635:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping recommended platform policies because no policy file was found at: /etc/opt/chrome/policies/recommended
 /snap/core20/current/lib/x86_64-linux-gnu/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /lib/x86_64-linux-gnu/libproxy.so.1)
 Failed to load module: /home/aya/snap/code/common/.cache/gio-modules/libgiolibproxy.so
-[11714:11714:0205/131525.000199:INFO:policy_logger.cc(144)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(168) Starting CBCM Controller Initialization
-[11714:11714:0205/131525.000245:INFO:policy_logger.cc(144)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(196) No machine level policy manager exists.
+[23132:23132:0208/225343.883896:INFO:policy_logger.cc(144)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(168) Starting CBCM Controller Initialization
+[23132:23132:0208/225343.884150:INFO:policy_logger.cc(144)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(196) No machine level policy manager exists.
 
-DevTools listening on ws://127.0.0.1:38745/devtools/browser/1f23803f-a4dd-4e1a-8a8c-b50b57071682
-[1707131725.089][DEBUG]: DevTools HTTP Request: http://localhost:38745/json/version
-[11714:11714:0205/131525.174438:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
-[1707131725.380][DEBUG]: DevTools HTTP Response: {
-   "Browser": "Chrome/121.0.6167.139",
+DevTools listening on ws://127.0.0.1:42427/devtools/browser/c79e11cc-a1c7-4c78-b401-81e46da30b53
+[1707425623.944][DEBUG]: DevTools HTTP Request: http://localhost:42427/json/version
+[23132:23132:0208/225344.185628:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
+[1707425624.730][DEBUG]: DevTools HTTP Response: {
+   "Browser": "Chrome/121.0.6167.160",
    "Protocol-Version": "1.3",
    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
    "V8-Version": "12.1.285.28",
-   "WebKit-Version": "537.36 (@a5856993c61543d4acbee5f848f1750607e87ba0)",
-   "webSocketDebuggerUrl": "ws://localhost:38745/devtools/browser/1f23803f-a4dd-4e1a-8a8c-b50b57071682"
+   "WebKit-Version": "537.36 (@8e23a63b5dead78825bec5ef48f4aeb5698ce21a)",
+   "webSocketDebuggerUrl": "ws://localhost:42427/devtools/browser/c79e11cc-a1c7-4c78-b401-81e46da30b53"
 }
 
-[1707131725.380][DEBUG]: DevTools HTTP Request: http://localhost:38745/json/list
-[1707131725.395][DEBUG]: DevTools HTTP Response: [ {
+[1707425624.730][DEBUG]: DevTools HTTP Request: http://localhost:42427/json/list
+[1707425624.769][DEBUG]: DevTools HTTP Response: [ {
    "description": "",
-   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:38745/devtools/page/9F5A4D33794AFF6DA5BC865560840FB5",
-   "id": "9F5A4D33794AFF6DA5BC865560840FB5",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:42427/devtools/page/CE7C182B71FDFF424C74B762A8E55F45",
+   "id": "CE7C182B71FDFF424C74B762A8E55F45",
    "title": "",
    "type": "page",
    "url": "data:,",
-   "webSocketDebuggerUrl": "ws://localhost:38745/devtools/page/9F5A4D33794AFF6DA5BC865560840FB5"
+   "webSocketDebuggerUrl": "ws://localhost:42427/devtools/page/CE7C182B71FDFF424C74B762A8E55F45"
 } ]
 
-[1707131725.395][INFO]: resolved localhost to ["127.0.0.1"]
-[11714:11714:0205/131525.395958:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.ScreenSaver.GetActive: object_path= /org/freedesktop/ScreenSaver: org.freedesktop.DBus.Error.NotSupported: This method is not implemented
-[1707131725.397][DEBUG]: DevTools WebSocket Command: Target.getTargets (id=1) (session_id=) browser {
+[1707425624.769][INFO]: resolved localhost to ["127.0.0.1"]
+[23132:23132:0208/225344.772708:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.ScreenSaver.GetActive: object_path= /org/freedesktop/ScreenSaver: org.freedesktop.DBus.Error.NotSupported: This method is not implemented
+[1707425624.774][DEBUG]: DevTools WebSocket Command: Target.getTargets (id=1) (session_id=) browser {
 }
-[1707131725.399][DEBUG]: DevTools WebSocket Response: Target.getTargets (id=1) (session_id=) browser {
+[1707425624.776][DEBUG]: DevTools WebSocket Response: Target.getTargets (id=1) (session_id=) browser {
    "targetInfos": [ {
       "attached": false,
-      "browserContextId": "1F0782B4A7D2656D3BB828053E0D9F8C",
+      "browserContextId": "9A3824938CEC8891B566E6DF6B55DFF5",
       "canAccessOpener": false,
-      "targetId": "9F5A4D33794AFF6DA5BC865560840FB5",
+      "targetId": "CE7C182B71FDFF424C74B762A8E55F45",
       "title": "",
       "type": "page",
       "url": "data:,"
    } ]
 }
-[1707131725.399][DEBUG]: DevTools WebSocket Command: Target.attachToTarget (id=2) (session_id=) browser {
+[1707425624.776][DEBUG]: DevTools WebSocket Command: Target.attachToTarget (id=2) (session_id=) browser {
    "flatten": true,
-   "targetId": "9F5A4D33794AFF6DA5BC865560840FB5"
+   "targetId": "CE7C182B71FDFF424C74B762A8E55F45"
 }
-[1707131725.401][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget (session_id=) browser {
-   "sessionId": "D6A03B499988CF78A05123A6EA3E859B",
+[1707425624.777][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget (session_id=) browser {
+   "sessionId": "2A720FAFFE590C5833B31608D7332B12",
    "targetInfo": {
       "attached": true,
-      "browserContextId": "1F0782B4A7D2656D3BB828053E0D9F8C",
+      "browserContextId": "9A3824938CEC8891B566E6DF6B55DFF5",
       "canAccessOpener": false,
-      "targetId": "9F5A4D33794AFF6DA5BC865560840FB5",
+      "targetId": "CE7C182B71FDFF424C74B762A8E55F45",
       "title": "",
       "type": "page",
       "url": "data:,"
    },
    "waitingForDebugger": false
 }
-[1707131725.401][DEBUG]: DevTools WebSocket Response: Target.attachToTarget (id=2) (session_id=) browser {
-   "sessionId": "D6A03B499988CF78A05123A6EA3E859B"
+[1707425624.777][DEBUG]: DevTools WebSocket Response: Target.attachToTarget (id=2) (session_id=) browser {
+   "sessionId": "2A720FAFFE590C5833B31608D7332B12"
 }
-[1707131725.401][DEBUG]: DevTools WebSocket Command: Page.enable (id=3) (session_id=D6A03B499988CF78A05123A6EA3E859B) 9F5A4D33794AFF6DA5BC865560840FB5 {
+[1707425624.777][DEBUG]: DevTools WebSocket Command: Page.enable (id=3) (session_id=2A720FAFFE590C5833B31608D7332B12) CE7C182B71FDFF424C74B762A8E55F45 {
 }
-[1707131725.401][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=4) (session_id=D6A03B499988CF78A05123A6EA3E859B) 9F5A4D33794AFF6DA5BC865560840FB5 {
+[1707425624.777][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=4) (session_id=2A720FAFFE590C5833B31608D7332B12) CE7C182B71FDFF424C74B762A8E55F45 {
    "source": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Object = window.Object;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_a..."
 }
-[1707131725.401][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=5) (session_id=D6A03B499988CF78A05123A6EA3E859B) 9F5A4D33794AFF6DA5BC865560840FB5 {
+[1707425624.778][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=5) (session_id=2A720FAFFE590C5833B31608D7332B12) CE7C182B71FDFF424C74B762A8E55F45 {
    "expression": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Object = window.Object;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_a..."
 }
-[1707131725.401][DEBUG]: DevTools WebSocket Command: Log.enable (id=6) (session_id=D6A03B499988CF78A05123A6EA3E859B) 9F5A4D33794AFF6DA5BC865560840FB5 {
+[1707425624.778][DEBUG]: DevTools WebSocket Command: Log.enable (id=6) (session_id=2A720FAFFE590C5833B31608D7332B12) CE7C182B71FDFF424C74B762A8E55F45 {
 }
-[1707131725.401][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=7) (session_id=D6A03B499988CF78A05123A6EA3E859B) 9F5A4D33794AFF6DA5BC865560840FB5 {
+[1707425624.778][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=7) (session_id=2A720FAFFE590C5833B31608D7332B12) CE7C182B71FDFF424C74B762A8E55F45 {
    "autoAttach": true,
    "flatten": true,
    "waitForDebuggerOnStart": false
 }
-[1707131725.401][DEBUG]: DevTools WebSocket Command: Page.enable (id=8) (session_id=D6A03B499988CF78A05123A6EA3E859B) 9F5A4D33794AFF6DA5BC865560840FB5 {
+[1707425624.778][DEBUG]: DevTools WebSocket Command: Page.enable (id=8) (session_id=2A720FAFFE590C5833B31608D7332B12) CE7C182B71FDFF424C74B762A8E55F45 {
 }
-[1707131725.401][DEBUG]: DevTools WebSocket Command: Page.enable (id=9) (session_id=D6A03B499988CF78A05123A6EA3E859B) 9F5A4D33794AFF6DA5BC865560840FB5 {
+[1707425624.778][DEBUG]: DevTools WebSocket Command: Page.enable (id=9) (session_id=2A720FAFFE590C5833B31608D7332B12) CE7C182B71FDFF424C74B762A8E55F45 {
 }
-[1707131726.672][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=D6A03B499988CF78A05123A6EA3E859B) 9F5A4D33794AFF6DA5BC865560840FB5 {
-   "frameId": "9F5A4D33794AFF6DA5BC865560840FB5"
-}
-[1707131726.675][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=7) (session_id=D6A03B499988CF78A05123A6EA3E859B) 9F5A4D33794AFF6DA5BC865560840FB5 {
-}
-[1707131726.676][DEBUG]: DevTools WebSocket Event: Inspector.detached (session_id=D6A03B499988CF78A05123A6EA3E859B) 9F5A4D33794AFF6DA5BC865560840FB5 {
-   "reason": "Render process gone."
-}
-[1707131726.746][INFO]: [7a819b08864d328cf281f7e627b83e8e] RESPONSE InitSession ERROR disconnected: received Inspector.detached event
-  (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: chrome=121.0.6167.139)
-[1707131726.746][DEBUG]: Log type 'driver' lost 0 entries on destruction
-[1707131726.746][DEBUG]: Log type 'browser' lost 0 entries on destruction
-[1707131727.750][INFO]: [c7566aae182936b8e68d17dd7c3ec784] COMMAND InitSession {
+[23132:23132:0208/225359.903762:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:265059
+[23132:23132:0208/225400.073687:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:5087
+[23132:23132:0208/225402.115959:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:883094
+[23132:23132:0208/225403.839819:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:2222106
+[23132:23132:0208/225404.043727:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:45116
+[23132:23132:0208/225408.351615:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:2746900
+[23132:23132:0208/225408.516555:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:3844
+[23132:23132:0208/225409.495435:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:1463571
+[23132:23132:0208/225411.901096:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:33994661
+[1707425713.765][INFO]: [8905c11fe4c014e07407b3580dd9aadd] COMMAND InitSession {
    "capabilities": {
       "alwaysMatch": {
          "browserName": "chrome",
@@ -391,20 +383,20 @@ DevTools listening on ws://127.0.0.1:38745/devtools/browser/1f23803f-a4dd-4e1a-8
       } ]
    }
 }
-[1707131727.750][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chrome
-[1707131727.750][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chrome
-[1707131727.750][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/google-chrome
-[1707131727.750][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chromium
-[1707131727.750][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chromium-browser
-[1707131727.750][INFO]: Browser search. Trying... /usr/local/sbin/chrome
-[1707131727.750][INFO]: Browser search. Trying... /usr/local/bin/chrome
-[1707131727.750][INFO]: Browser search. Trying... /usr/sbin/chrome
-[1707131727.750][INFO]: Browser search. Trying... /usr/bin/chrome
-[1707131727.750][INFO]: Browser search. Trying... /sbin/chrome
-[1707131727.750][INFO]: Browser search. Trying... /bin/chrome
-[1707131727.750][INFO]: Browser search. Trying... /opt/google/chrome/chrome
-[1707131727.750][INFO]: Browser search. Found at  /opt/google/chrome/chrome
-[1707131727.750][INFO]: Populating Preferences file: {
+[1707425713.765][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chrome
+[1707425713.765][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chrome
+[1707425713.765][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/google-chrome
+[1707425713.765][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chromium
+[1707425713.765][INFO]: Browser search. Trying... /home/aya/Documents/myStore_testing/UI_test/node_modules/chromedriver/lib/chromedriver/chromium-browser
+[1707425713.765][INFO]: Browser search. Trying... /usr/local/sbin/chrome
+[1707425713.765][INFO]: Browser search. Trying... /usr/local/bin/chrome
+[1707425713.765][INFO]: Browser search. Trying... /usr/sbin/chrome
+[1707425713.765][INFO]: Browser search. Trying... /usr/bin/chrome
+[1707425713.765][INFO]: Browser search. Trying... /sbin/chrome
+[1707425713.765][INFO]: Browser search. Trying... /bin/chrome
+[1707425713.766][INFO]: Browser search. Trying... /opt/google/chrome/chrome
+[1707425713.766][INFO]: Browser search. Found at  /opt/google/chrome/chrome
+[1707425713.766][INFO]: Populating Preferences file: {
    "alternate_error_pages": {
       "enabled": false
    },
@@ -457,7 +449,7 @@ DevTools listening on ws://127.0.0.1:38745/devtools/browser/1f23803f-a4dd-4e1a-8
       "enabled": false
    }
 }
-[1707131727.750][INFO]: Populating Local State file: {
+[1707425713.767][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
@@ -467,105 +459,146 @@ DevTools listening on ws://127.0.0.1:38745/devtools/browser/1f23803f-a4dd-4e1a-8
       }
    }
 }
-[1707131727.751][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
-[1707131727.751][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
-[1707131727.751][INFO]: Launching chrome: /opt/google/chrome/chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging=stderr --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.org.chromium.Chromium.NWSws5 data:,
-[0205/131527.792591:WARNING:chrome_main_linux.cc(80)] Read channel stable from /opt/google/chrome/CHROME_VERSION_EXTRA
-[11821:11821:0205/131527.794252:WARNING:chrome_main_delegate.cc(668)] This is Chrome version 121.0.6167.139 (not a warning)
-[11821:11821:0205/131527.829271:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping mandatory platform policies because no policy file was found at: /etc/opt/chrome/policies/managed
-[11821:11821:0205/131527.829295:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping recommended platform policies because no policy file was found at: /etc/opt/chrome/policies/recommended
+[1707425713.767][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1707425713.767][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1707425713.767][INFO]: Launching chrome: /opt/google/chrome/chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging=stderr --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.org.chromium.Chromium.v8fFBY data:,
+[0208/225513.828299:WARNING:chrome_main_linux.cc(80)] Read channel stable from /opt/google/chrome/CHROME_VERSION_EXTRA
+[24937:24937:0208/225513.830464:WARNING:chrome_main_delegate.cc(668)] This is Chrome version 121.0.6167.160 (not a warning)
+[24937:24937:0208/225513.866871:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping mandatory platform policies because no policy file was found at: /etc/opt/chrome/policies/managed
+[24937:24937:0208/225513.866899:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping recommended platform policies because no policy file was found at: /etc/opt/chrome/policies/recommended
 /snap/core20/current/lib/x86_64-linux-gnu/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /lib/x86_64-linux-gnu/libproxy.so.1)
 Failed to load module: /home/aya/snap/code/common/.cache/gio-modules/libgiolibproxy.so
-[11821:11821:0205/131527.927466:INFO:policy_logger.cc(144)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(168) Starting CBCM Controller Initialization
-[11821:11821:0205/131527.927527:INFO:policy_logger.cc(144)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(196) No machine level policy manager exists.
+[24937:24937:0208/225513.975484:INFO:policy_logger.cc(144)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(168) Starting CBCM Controller Initialization
+[24937:24937:0208/225513.978563:INFO:policy_logger.cc(144)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(196) No machine level policy manager exists.
 
-DevTools listening on ws://127.0.0.1:41201/devtools/browser/9940d70a-085b-4ef1-8bf2-23173a793c3f
-[1707131728.020][DEBUG]: DevTools HTTP Request: http://localhost:41201/json/version
-[11821:11821:0205/131528.098438:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
-[1707131728.315][DEBUG]: DevTools HTTP Response: {
-   "Browser": "Chrome/121.0.6167.139",
+DevTools listening on ws://127.0.0.1:39353/devtools/browser/f135e507-13c4-406f-bed5-be7927c2332e
+[1707425714.043][DEBUG]: DevTools HTTP Request: http://localhost:39353/json/version
+[24937:24937:0208/225514.153927:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
+[1707425714.370][DEBUG]: DevTools HTTP Response: {
+   "Browser": "Chrome/121.0.6167.160",
    "Protocol-Version": "1.3",
    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
    "V8-Version": "12.1.285.28",
-   "WebKit-Version": "537.36 (@a5856993c61543d4acbee5f848f1750607e87ba0)",
-   "webSocketDebuggerUrl": "ws://localhost:41201/devtools/browser/9940d70a-085b-4ef1-8bf2-23173a793c3f"
+   "WebKit-Version": "537.36 (@8e23a63b5dead78825bec5ef48f4aeb5698ce21a)",
+   "webSocketDebuggerUrl": "ws://localhost:39353/devtools/browser/f135e507-13c4-406f-bed5-be7927c2332e"
 }
 
-[1707131728.315][DEBUG]: DevTools HTTP Request: http://localhost:41201/json/list
-[1707131728.331][DEBUG]: DevTools HTTP Response: [ {
+[1707425714.370][DEBUG]: DevTools HTTP Request: http://localhost:39353/json/list
+[1707425714.410][DEBUG]: DevTools HTTP Response: [ {
    "description": "",
-   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:41201/devtools/page/9ACCD55004127FA13C180393A0E28F37",
-   "id": "9ACCD55004127FA13C180393A0E28F37",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:39353/devtools/page/E7988273B526C4D98F7C2B4EBD4FF31E",
+   "id": "E7988273B526C4D98F7C2B4EBD4FF31E",
    "title": "",
    "type": "page",
    "url": "data:,",
-   "webSocketDebuggerUrl": "ws://localhost:41201/devtools/page/9ACCD55004127FA13C180393A0E28F37"
+   "webSocketDebuggerUrl": "ws://localhost:39353/devtools/page/E7988273B526C4D98F7C2B4EBD4FF31E"
 } ]
 
-[11821:11821:0205/131528.331093:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.ScreenSaver.GetActive: object_path= /org/freedesktop/ScreenSaver: org.freedesktop.DBus.Error.NotSupported: This method is not implemented
-[1707131728.331][INFO]: resolved localhost to ["127.0.0.1"]
-[1707131728.335][DEBUG]: DevTools WebSocket Command: Target.getTargets (id=1) (session_id=) browser {
+[1707425714.410][INFO]: resolved localhost to ["127.0.0.1"]
+[24937:24937:0208/225514.411474:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.ScreenSaver.GetActive: object_path= /org/freedesktop/ScreenSaver: org.freedesktop.DBus.Error.NotSupported: This method is not implemented
+[1707425714.412][DEBUG]: DevTools WebSocket Command: Target.getTargets (id=1) (session_id=) browser {
 }
-[1707131728.355][DEBUG]: DevTools WebSocket Response: Target.getTargets (id=1) (session_id=) browser {
+[1707425714.414][DEBUG]: DevTools WebSocket Response: Target.getTargets (id=1) (session_id=) browser {
    "targetInfos": [ {
       "attached": false,
-      "browserContextId": "55CEEBB50FFEA7B83AE2E014F9790C1F",
+      "browserContextId": "8B8C1F88039A901C7AC880372ED82ECA",
       "canAccessOpener": false,
-      "targetId": "9ACCD55004127FA13C180393A0E28F37",
+      "targetId": "E7988273B526C4D98F7C2B4EBD4FF31E",
       "title": "",
       "type": "page",
       "url": "data:,"
    } ]
 }
-[1707131728.355][DEBUG]: DevTools WebSocket Command: Target.attachToTarget (id=2) (session_id=) browser {
+[1707425714.414][DEBUG]: DevTools WebSocket Command: Target.attachToTarget (id=2) (session_id=) browser {
    "flatten": true,
-   "targetId": "9ACCD55004127FA13C180393A0E28F37"
+   "targetId": "E7988273B526C4D98F7C2B4EBD4FF31E"
 }
-[1707131728.359][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget (session_id=) browser {
-   "sessionId": "2404500B7A0E2635295DE6A8851ECB3E",
+[1707425714.416][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget (session_id=) browser {
+   "sessionId": "B02D1B0B6F922039BFC5BBBFC669D7CF",
    "targetInfo": {
       "attached": true,
-      "browserContextId": "55CEEBB50FFEA7B83AE2E014F9790C1F",
+      "browserContextId": "8B8C1F88039A901C7AC880372ED82ECA",
       "canAccessOpener": false,
-      "targetId": "9ACCD55004127FA13C180393A0E28F37",
+      "targetId": "E7988273B526C4D98F7C2B4EBD4FF31E",
       "title": "",
       "type": "page",
       "url": "data:,"
    },
    "waitingForDebugger": false
 }
-[1707131728.359][DEBUG]: DevTools WebSocket Response: Target.attachToTarget (id=2) (session_id=) browser {
-   "sessionId": "2404500B7A0E2635295DE6A8851ECB3E"
+[1707425714.416][DEBUG]: DevTools WebSocket Response: Target.attachToTarget (id=2) (session_id=) browser {
+   "sessionId": "B02D1B0B6F922039BFC5BBBFC669D7CF"
 }
-[1707131728.359][DEBUG]: DevTools WebSocket Command: Page.enable (id=3) (session_id=2404500B7A0E2635295DE6A8851ECB3E) 9ACCD55004127FA13C180393A0E28F37 {
+[1707425714.416][DEBUG]: DevTools WebSocket Command: Page.enable (id=3) (session_id=B02D1B0B6F922039BFC5BBBFC669D7CF) E7988273B526C4D98F7C2B4EBD4FF31E {
 }
-[1707131728.359][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=4) (session_id=2404500B7A0E2635295DE6A8851ECB3E) 9ACCD55004127FA13C180393A0E28F37 {
+[1707425714.416][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=4) (session_id=B02D1B0B6F922039BFC5BBBFC669D7CF) E7988273B526C4D98F7C2B4EBD4FF31E {
    "source": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Object = window.Object;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_a..."
 }
-[1707131728.359][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=5) (session_id=2404500B7A0E2635295DE6A8851ECB3E) 9ACCD55004127FA13C180393A0E28F37 {
+[1707425714.416][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=5) (session_id=B02D1B0B6F922039BFC5BBBFC669D7CF) E7988273B526C4D98F7C2B4EBD4FF31E {
    "expression": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Object = window.Object;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_a..."
 }
-[1707131728.360][DEBUG]: DevTools WebSocket Command: Log.enable (id=6) (session_id=2404500B7A0E2635295DE6A8851ECB3E) 9ACCD55004127FA13C180393A0E28F37 {
+[1707425714.416][DEBUG]: DevTools WebSocket Command: Log.enable (id=6) (session_id=B02D1B0B6F922039BFC5BBBFC669D7CF) E7988273B526C4D98F7C2B4EBD4FF31E {
 }
-[1707131728.360][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=7) (session_id=2404500B7A0E2635295DE6A8851ECB3E) 9ACCD55004127FA13C180393A0E28F37 {
+[1707425714.416][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=7) (session_id=B02D1B0B6F922039BFC5BBBFC669D7CF) E7988273B526C4D98F7C2B4EBD4FF31E {
    "autoAttach": true,
    "flatten": true,
    "waitForDebuggerOnStart": false
 }
-[1707131728.360][DEBUG]: DevTools WebSocket Command: Page.enable (id=8) (session_id=2404500B7A0E2635295DE6A8851ECB3E) 9ACCD55004127FA13C180393A0E28F37 {
+[1707425714.416][DEBUG]: DevTools WebSocket Command: Page.enable (id=8) (session_id=B02D1B0B6F922039BFC5BBBFC669D7CF) E7988273B526C4D98F7C2B4EBD4FF31E {
 }
-[1707131728.360][DEBUG]: DevTools WebSocket Command: Page.enable (id=9) (session_id=2404500B7A0E2635295DE6A8851ECB3E) 9ACCD55004127FA13C180393A0E28F37 {
+[1707425714.416][DEBUG]: DevTools WebSocket Command: Page.enable (id=9) (session_id=B02D1B0B6F922039BFC5BBBFC669D7CF) E7988273B526C4D98F7C2B4EBD4FF31E {
 }
-[1707131729.079][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=2404500B7A0E2635295DE6A8851ECB3E) 9ACCD55004127FA13C180393A0E28F37 {
-   "frameId": "9ACCD55004127FA13C180393A0E28F37"
+[24937:24937:0208/225524.754762:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:265059
+[24937:24937:0208/225524.920361:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:5087
+[24937:24937:0208/225526.843641:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:883094
+[24937:24937:0208/225529.699010:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:2222106
+[24937:24937:0208/225529.825270:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:45116
+[24937:24937:0208/225532.428236:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:2746900
+[24937:24937:0208/225532.517093:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:3844
+[1707425733.624][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=66A781FEAA0A9CB31EEAC7B26F6E7FE1) E0475194E7FF3842B382CFBB853294CA {
+   "frameId": "E0475194E7FF3842B382CFBB853294CA"
 }
-[1707131729.081][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=7) (session_id=2404500B7A0E2635295DE6A8851ECB3E) 9ACCD55004127FA13C180393A0E28F37 {
+[1707425733.625][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=7) (session_id=66A781FEAA0A9CB31EEAC7B26F6E7FE1) E0475194E7FF3842B382CFBB853294CA {
 }
-[1707131729.084][DEBUG]: DevTools WebSocket Event: Inspector.detached (session_id=2404500B7A0E2635295DE6A8851ECB3E) 9ACCD55004127FA13C180393A0E28F37 {
+[1707425733.629][DEBUG]: DevTools WebSocket Event: Inspector.detached (session_id=66A781FEAA0A9CB31EEAC7B26F6E7FE1) E0475194E7FF3842B382CFBB853294CA {
    "reason": "Render process gone."
 }
-[1707131729.153][INFO]: [c7566aae182936b8e68d17dd7c3ec784] RESPONSE InitSession ERROR disconnected: received Inspector.detached event
+[21890:21890:0208/225533.636102:WARNING:compositor_animation_observer.cc(64)] CompositorAnimationObserver is active for too long (199.778s) location=OnViewAddedToWidget@ui/views/animation/animation_delegate_views.cc:42
+[21890:21890:0208/225533.637408:WARNING:compositor_animation_observer.cc(64)] CompositorAnimationObserver is active for too long (199.78s) location=OnViewAddedToWidget@ui/views/animation/animation_delegate_views.cc:42
+[21890:21890:0208/225533.637625:WARNING:compositor_animation_observer.cc(64)] CompositorAnimationObserver is active for too long (199.78s) location=OnViewAddedToWidget@ui/views/animation/animation_delegate_views.cc:42
+[1707425733.702][INFO]: [db0eb10fc8c011d02e2262162ecd2c24] RESPONSE InitSession ERROR disconnected: received Inspector.detached event
   (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: chrome=121.0.6167.139)
-[1707131729.153][DEBUG]: Log type 'driver' lost 0 entries on destruction
-[1707131729.153][DEBUG]: Log type 'browser' lost 0 entries on destruction
+  (Session info: chrome=121.0.6167.160)
+[1707425733.703][DEBUG]: Log type 'driver' lost 0 entries on destruction
+[1707425733.703][DEBUG]: Log type 'browser' lost 0 entries on destruction
+[24937:24937:0208/225533.837707:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:1463571
+[23132:23132:0208/225534.944629:WARNING:compositor_animation_observer.cc(64)] CompositorAnimationObserver is active for too long (110.877s) location=OnViewAddedToWidget@ui/views/animation/animation_delegate_views.cc:42
+[23132:23132:0208/225534.944812:WARNING:compositor_animation_observer.cc(64)] CompositorAnimationObserver is active for too long (110.877s) location=OnViewAddedToWidget@ui/views/animation/animation_delegate_views.cc:42
+[23132:23132:0208/225534.945047:WARNING:compositor_animation_observer.cc(64)] CompositorAnimationObserver is active for too long (110.877s) location=OnViewAddedToWidget@ui/views/animation/animation_delegate_views.cc:42
+[1707425734.951][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=2A720FAFFE590C5833B31608D7332B12) CE7C182B71FDFF424C74B762A8E55F45 {
+   "frameId": "CE7C182B71FDFF424C74B762A8E55F45"
+}
+[1707425734.952][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=7) (session_id=2A720FAFFE590C5833B31608D7332B12) CE7C182B71FDFF424C74B762A8E55F45 {
+}
+[1707425734.952][DEBUG]: DevTools WebSocket Event: Inspector.detached (session_id=2A720FAFFE590C5833B31608D7332B12) CE7C182B71FDFF424C74B762A8E55F45 {
+   "reason": "Render process gone."
+}
+[1707425735.048][INFO]: [5554c6516b3271dfceaa6c565a87c1ca] RESPONSE InitSession ERROR disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=121.0.6167.160)
+[1707425735.048][DEBUG]: Log type 'driver' lost 0 entries on destruction
+[1707425735.048][DEBUG]: Log type 'browser' lost 0 entries on destruction
+[24937:24937:0208/225537.258113:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:33994661
+[1707425739.545][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=B02D1B0B6F922039BFC5BBBFC669D7CF) E7988273B526C4D98F7C2B4EBD4FF31E {
+   "frameId": "E7988273B526C4D98F7C2B4EBD4FF31E"
+}
+[1707425739.545][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=7) (session_id=B02D1B0B6F922039BFC5BBBFC669D7CF) E7988273B526C4D98F7C2B4EBD4FF31E {
+}
+[1707425739.545][DEBUG]: DevTools WebSocket Event: Inspector.detached (session_id=B02D1B0B6F922039BFC5BBBFC669D7CF) E7988273B526C4D98F7C2B4EBD4FF31E {
+   "reason": "Render process gone."
+}
+[1707425739.606][INFO]: [8905c11fe4c014e07407b3580dd9aadd] RESPONSE InitSession ERROR disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=121.0.6167.160)
+[1707425739.607][DEBUG]: Log type 'driver' lost 0 entries on destruction
+[1707425739.607][DEBUG]: Log type 'browser' lost 0 entries on destruction
