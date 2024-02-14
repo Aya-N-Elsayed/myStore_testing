@@ -3,18 +3,10 @@ version: 2.1
 jobs:
   build-and-test:
     docker:
-      - image: 'cimg/node:lts' # This is a standard Node image provided by CircleCI
+      - image: cypress/browsers:node12.18.3-chrome87-ff82
     steps:
       - checkout
-      - run:
-          name: Install Chrome
-          command: |
-            sudo apt-get update
-            sudo apt-get install -y wget gnupg2
-            wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-            echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
-            sudo apt-get update
-            sudo apt-get install -y google-chrome-stable
+
 
       - run:
           name: Verify Chrome Installation
