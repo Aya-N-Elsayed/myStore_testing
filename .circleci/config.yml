@@ -1,0 +1,15 @@
+version: 2.1
+
+jobs:
+  build-and-test:
+    docker:
+      - image: 'cimg/node:lts' # This is a standard Node image provided by CircleCI
+    steps:
+      - checkout
+      - run: npm install
+      - run: npx nightwatch
+
+workflows:
+  build_and_test_workflow:
+    jobs:
+      - build-and-test
