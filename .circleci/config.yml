@@ -3,20 +3,22 @@ version: 2.1
 jobs:
   build-and-test:
     docker:
-      - image: cypress/browsers:node12.18.3-chrome87-ff82
+      - image: selenium/standalone-chrome:latest  # Use the latest version or specify a specific tag
     steps:
       - checkout
-
-
       - run:
-          name: Verify Chrome Installation
-          command: google-chrome --version
-   
-      - run:
-          name: Install dependencies and run tests
+          name: Install Project Dependencies
           command: |
+            # Assuming your project uses Node.js
+            # Install Node.js in the container
+            sudo apt-get update && sudo apt-get install -y nodejs npm
+            # Navigate to your test directory and install dependencies
             cd UI_test
             npm install
+      - run:
+          name: Run Tests
+          command: |
+            cd UI_test
             npx nightwatch
 
 workflows:
