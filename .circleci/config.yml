@@ -3,8 +3,8 @@ version: 2.1
 jobs:
   build-and-test:
     docker:
-      - image: 'cimg/node:lts' # This is a standard Node image provided by CircleCI
-    working_directory: ../UI_test
+      - image: 'cimg/node:lts'
+    working_directory: ~/project/UI_test
     steps:
       - checkout
       - run: npm install
@@ -14,4 +14,3 @@ workflows:
   build_and_test_workflow:
     jobs:
       - build-and-test
-
