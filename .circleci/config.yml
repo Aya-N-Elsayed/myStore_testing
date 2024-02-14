@@ -6,6 +6,9 @@ jobs:
       - image: 'cimg/node:lts' # This is a standard Node image provided by CircleCI
     steps:
       - checkout
+      - run:
+          name: Change to project directory
+          command: cd UI_test
       - run: npm install
       - run: npx nightwatch
 
