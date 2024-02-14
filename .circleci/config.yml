@@ -1,8 +1,6 @@
-version: 2.1
-
 jobs:
   build-and-test:
-       docker:
+    docker:
       - image: selenium/standalone-chrome:latest
     steps:
       - checkout
