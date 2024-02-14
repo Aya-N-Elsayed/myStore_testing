@@ -2,25 +2,22 @@ version: 2.1
 
 jobs:
   build-and-test:
-    docker:
-      - image: selenium/standalone-chrome:latest  # Use the latest version or specify a specific tag
+       docker:
+      - image: selenium/standalone-chrome:latest
     steps:
       - checkout
       - run:
-          name: Install Node.js (Version 14.x)
+          name: Install Node.js (Version 16.x)
           command: |
             curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
             sudo apt-get install -y nodejs
             node --version
             npm --version
-
       - run:
           name: Install Project Dependencies
           command: |
-            # Assuming your project uses Node.js
-            # Install Node.js in the container
-            sudo apt-get update && sudo apt-get install -y nodejs npm
-            # Navigate to your test directory and install dependencies
+            # No need to install Node.js and npm again since they were installed in the previous step.
+            # Navigate to your test directory and install dependencies.
             cd UI_test
             npm install
       - run:
@@ -28,8 +25,3 @@ jobs:
           command: |
             cd UI_test
             npx nightwatch
-
-workflows:
-  build_and_test_workflow:
-    jobs:
-      - build-and-test
