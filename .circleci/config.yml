@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build-and-test:
     docker:
-      - image: cimg/node:14.17.0  # This image has Node.js version 14
+      - image: selenium/standalone-chrome:latest  # Use the latest version or specify a specific tag
     steps:
       - checkout
       - run:
