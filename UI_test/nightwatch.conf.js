@@ -46,11 +46,11 @@ module.exports = {
         browserName: 'chrome',
         chromeOptions: {
           args: [
-            '--headless',
-            '--no-sandbox',
-            '--disable-gpu',
-            '--disable-dev-shm-usage',
-            '--window-size=1920,1080',
+          '--headless',
+          '--no-sandbox',
+          '--disable-gpu',
+          '--disable-dev-shm-usage',
+          '--whitelisted-ips' 
           ],
         },
       },
