@@ -4,7 +4,7 @@ jobs:
   build-and-test:
     docker:
       - image: 'cimg/node:lts'
-    working_directory: ~/project/UI_test
+    working_directory: ~/myStore_testing/UI_test
     steps:
       - checkout
       - run: npm install
