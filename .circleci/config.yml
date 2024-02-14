@@ -4,9 +4,13 @@ jobs:
   build-and-test:
     docker:
       - image: 'cimg/node:lts'
-    working_directory: ../myStore_testing/UI_test
+    working_directory: ~/project/UI_test
     steps:
       - checkout
+      - run:
+    name: List directory contents
+    command: ls -la ~/project/UI_test
+
       - run: npm install
       - run: npx nightwatch
 
