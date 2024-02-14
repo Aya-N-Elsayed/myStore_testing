@@ -7,10 +7,6 @@ jobs:
     working_directory: ../../UI_test
     steps:
       - checkout
-      - run:
-    name: List directory contents
-    command: ls -la ~/
-
       - run: npm install
       - run: npx nightwatch
 
