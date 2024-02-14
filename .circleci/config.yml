@@ -1,27 +1,22 @@
 version: 2.1
 
-orbs:
-  browser-tools: circleci/browser-tools@1.1.3
-
 jobs:
-  build_and_test:  # Ensure this name matches the one used in your workflow
+  build-and-test:
     docker:
-      - image: cimg/node:14.17.0
+      - image: selenium/standalone-chrome:latest  # Use the latest version or specify a specific tag
     steps:
       - checkout
       - run:
-          name: Change directory and Install Dependencies
+          name: Install Project Dependencies
           command: |
+            # Assuming your project uses Node.js
+            # Install Node.js in the container
+            sudo apt-get update && sudo apt-get install -y nodejs npm
+            # Navigate to your test directory and install dependencies
             cd UI_test
             npm install
-      - browser-tools/install-browser-tools
       - run:
-          name: Run Nightwatch Tests
+          name: Run Tests
           command: |
             cd UI_test
             npx nightwatch
-
-workflows:
-  your-workflow:
-    jobs:
-      - build_and_test  # This name must match the job name defined above
