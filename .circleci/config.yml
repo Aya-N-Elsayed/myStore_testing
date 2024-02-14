@@ -4,11 +4,9 @@ jobs:
   build-and-test:
     docker:
       - image: 'cimg/node:lts' # This is a standard Node image provided by CircleCI
+    working_directory: ~/project/UI_test
     steps:
       - checkout
-      - run:
-          name: Change to project directory
-          command: cd UI_test
       - run: npm install
       - run: npx nightwatch
 
@@ -16,3 +14,4 @@ workflows:
   build_and_test_workflow:
     jobs:
       - build-and-test
+
